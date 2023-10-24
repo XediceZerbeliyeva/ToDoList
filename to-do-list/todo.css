@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:400px;
+    height: auto;
+    background-color: rgb(82, 82, 148);
+    border-radius: 10px;
+    margin:50px auto;
+    padding: 20px;
+    text-align: center;
+    font-size:30px;
+    color: white;
+    box-sizing: border-box;
+}
+.buttons{
+    display: flex;
+    justify-content:center;
+}
+input{
+    width:150px;
+    height:25px;
+}
+.btn,.delbtn{
+    padding: 0 20px;
+}
+.newElement{
+    width: 180px;
+}
